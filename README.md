@@ -1,0 +1,1 @@
+This project is a demonstration of the recent skills obtained through Odin Project HTML section.
