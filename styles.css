@@ -2,19 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: lightyellow;
+    border: 1px solid red;
 }
 
 h1 {
     text-align: center;
-}
-
-.return {
-    border: 1px solid darkblue;
-    background-color: darkblue;
-    padding: 4px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+    border-bottom: 1px solid orange;
 }
 
 li a{
@@ -36,4 +29,23 @@ img{
 /* Number Marker on Bold */
 ol > li::marker {
     font-weight: bold;
+}
+
+.return {
+    border: 1px solid darkblue;
+    background-color: darkblue;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.recipes_list {
+    text-align: justify;    
+}
+
+.recipes_list li{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
 }
